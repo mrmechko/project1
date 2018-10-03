@@ -1,6 +1,6 @@
 ## The Project
 
-In this project, you will load the ontology
+In this project, you will load the TRIPS ontology and use selectional restrictions to assign the correct semantic roles to semantic templates.
 
 
 # CSC 247/447 Programming Assignment \#1
@@ -30,12 +30,12 @@ This file contains the semantic types and their arguments.  Each entry has the f
 		"PHYSICAL-ACTIVITY",
 		...
 	],
-	"wordnet": [								 // list of wordnet mappings to the type
+	"wordnet": [		           // list of wordnet mappings to the type
 		"project%1:04:00",
 		"project%1:09:00",
 		"activity%1:04:00"
 	],
-	"arguments": [               // list of semantic arguments for the type
+	"arguments": [                     // list of semantic arguments for the type
 		{
 			"role": "AGENT",         // role filled by the argument
 			"restrictions": [        // role restriction, see below
@@ -86,4 +86,9 @@ only senses of run that allow both the `AGENT` and `AFFECTED` roles would be pos
 
 ### Submission
 
-Submit a `.zip` file on blackboard containing the folder structure provided.  Your code should be in the folder entitled `code` and your data should be in the folder entitled `data`.  Your results should write to the base directory.
+Submit a `[yourname].zip` file on blackboard containing the folder structure provided.  Your code should be in the folder entitled `code` and your data should be in the folder entitled `data`.  Your results should write to the base directory.
+
+The submission should contain:
+* The original files in their current locations
+* Any additional code files you need for your system to work
+* `report.{txt|pdf}` containing a description of your work including any specific running instructions and an outline of the algorithms you have implemented
