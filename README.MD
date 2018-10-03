@@ -2,6 +2,8 @@
 
 In this project, you will load the TRIPS ontology and use selectional restrictions to assign the correct semantic roles to semantic templates.
 
+For this project you should use `python3` and you should not require any dependencies outside of the standard library.
+
 
 # CSC 247/447 Programming Assignment \#1
 
