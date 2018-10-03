@@ -86,9 +86,10 @@ only senses of run that allow both the `AGENT` and `AFFECTED` roles would be pos
 
 ### Submission
 
-Submit a `[yourname].zip` file on blackboard containing the folder structure provided.  Your code should be in the folder entitled `code` and your data should be in the folder entitled `data`.  Your results should write to the base directory.
+Submit a `[yourname].zip` file on blackboard containing the folder structure provided.  Your code should be in the folder entitled `code` and your data should be in the folder entitled `data`.  Your results should write to the base directory.  Make sure to implement the methods in `code/test.py` to make grading easier.
 
 The submission should contain:
 * The original files in their current locations
 * Any additional code files you need for your system to work
+* An implemented `code/test.py` file.
 * `report.{txt|pdf}` containing a description of your work including any specific running instructions and an outline of the algorithms you have implemented

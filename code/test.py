@@ -26,3 +26,23 @@ def subsumption_tests(input_file, output_file):
     """
     print("this function needs to be implemented")
     pass
+
+
+def tagging_tests(input_file, output_file):
+    """this function should load a file containing a list of words, one word per line.
+    Each line of the output file will contain a comma separated list of ontology types derived from the ontology only for the corresponding line in the input.
+    """
+
+    print("This function needs to be implemented")
+    pass
+
+
+def extra_credit(input_file, output_file):
+    """this function should load a file containing a list of words, one word per line.
+    Each line of the output file will contain a comma separated list of ontology types derived from _wordnet_ only for the corresponding line in the input.
+    """
+
+    print("This function needs to be implemented")
+    pass
+
+
