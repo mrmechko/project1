@@ -1,0 +1,2 @@
+(eat :AGENT bat :AFFECTED date)
+(run :AGENT he :AFFECTED machine)

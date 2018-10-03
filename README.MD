@@ -84,12 +84,19 @@ Note this was a simple case since eat has only one meaning in the ontology. A ve
 ```
 only senses of run that allow both the `AGENT` and `AFFECTED` roles would be possible. In some cases, there are multiple solutions possible. In that case, your program should list each of the possibilities.
 
+### Results
+
+We will provide several examples for testing.  You should each additionally provide 10 of your own templates with the
+correct answers (one correct answer for each, removing any output predicates which satisfy the restrictions but have the wrong meaning).
+
 ### Submission
 
-Submit a `[yourname].zip` file on blackboard containing the folder structure provided.  Your code should be in the folder entitled `code` and your data should be in the folder entitled `data`.  Your results should write to the base directory.  Make sure to implement the methods in `code/test.py` to make grading easier.
+Submit a `[yourname].zip` file on blackboard containing the folder structure provided.  Your code should be in the folder entitled `code` and your data should be in the folder entitled `data`.  Make sure to implement the methods in `code/test.py` to make grading easier.
 
 The submission should contain:
 * The original files in their current locations
 * Any additional code files you need for your system to work
 * An implemented `code/test.py` file.
 * `report.{txt|pdf}` containing a description of your work including any specific running instructions and an outline of the algorithms you have implemented
+* `input/[yourname]-templates.txt` containing a list of at least 10 templates you have come up with
+* `[yourname]-templates.gold.txt` containing the correct answers for the templates you came up with
