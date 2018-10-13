@@ -3,6 +3,6 @@
   [
     {"root": "EXECUTE", "AGENT": "MALE-PERSON", "AFFECTED": "MACHINE"}, 
     {"root": "GOVERNING", "AGENT": "MALE-PERSON", "AFFECTED": "MACHINE"},
-    {"MOVE-RAPIDLY", "AGENT": "MALE-PERSON", "AFFECTED": "MACHINE"}
+    {"root": "MOVE-RAPIDLY", "AGENT": "MALE-PERSON", "AFFECTED": "MACHINE"}
    ]
 ]
