@@ -2,7 +2,6 @@
   {"root": "CONSUME",  "AGENT": "NONHUMAN-ANIMAL", "AFFECTED": "FRUIT"},
   [
     {"root": "EXECUTE", "AGENT": "MALE-PERSON", "AFFECTED": "MACHINE"}, 
-    {"root": "GOVERNING", "AGENT": "MALE-PERSON", "AFFECTED": "MACHINE"},
-    {"root": "MOVE-RAPIDLY", "AGENT": "MALE-PERSON", "AFFECTED": "MACHINE"}
-   ]
+    {"root": "GOVERNING", "AGENT": "MALE-PERSON", "AFFECTED": "MACHINE"}
+  ]
 ]
